@@ -15,6 +15,8 @@ install(
 install(
   PROGRAMS
     demos/controllers.py
+    demos/single_arm_demo.py
+    demos/dual_arm_demo.py
   DESTINATION
     lib/${PROJECT_NAME}
 )
